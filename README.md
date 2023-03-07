@@ -6,6 +6,7 @@ It shall NOT be edited by hand.
 # BookWyrm for YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/bookwyrm.svg)](https://dash.yunohost.org/appci/app/bookwyrm) ![Working status](https://ci-apps.yunohost.org/ci/badges/bookwyrm.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/bookwyrm.maintain.svg)
+
 [![Install BookWyrm with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=bookwyrm)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -30,10 +31,9 @@ BookWyrm is a social network for tracking your reading, talking about books, wri
 
 This project is still young and isn't, at the moment, very stable, so please proceed with caution when running in production.
 
-Generate the admin code with `sudo -u bookwyrm /var/www/bookwyrm/venv/bin/python3 /var/www/bookwyrm/manage.py admin_code`, 
-and copy the admin code to use when you create your admin account. You can get your code 
-at any time by re-running that command. Here's an example output:
-```
+Generate the admin code with ``` sudo -u bookwyrm /var/www/bookwyrm/venv/bin/python3 /var/www/bookwyrm/manage.py admin_code```, and copy the admin code to use when you create your admin account. You can get your code at any time by re-running that command. Here's an example output:
+
+``` bash
 *******************************************
 Use this code to create your admin account:
 c6c35779-af3a-4091-b330-c026610920d6
