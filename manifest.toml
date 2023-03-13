@@ -49,8 +49,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/bookwyrm-social/bookwyrm/archive/refs/tags/v0.5.4.tar.gz"
-        sha256 = "2dafdcf26de6c041611d16ed48b751cf8d4dfbee1f5cf4aa5975592bc080261d"
+        url = "https://github.com/bookwyrm-social/bookwyrm/archive/refs/tags/v0.5.5.tar.gz"
+        sha256 = "E09E7DFF22E1D5AADB44C52D217FA53D3EAF2FECE9AA9856A147987F0BBBA14F"
 
     [resources.system_user]
 
